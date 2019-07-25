@@ -2,12 +2,17 @@
 
 **_(README EDITING IN PROGRESS)_**
 
-Automation project built using Page Object Model, Selenium, and TestNG.
+### Summary:
+
+This project is a web automation framework example built using Page Object Model, Selenium, and TestNG. The test cases included cover 3 different scenarios:
+1. Successfully logging into an existing Facebook account (correct credentials)
+2. Unsuccessfully logging into an existing Facebook account (incorrect credentials) 
+3. Creating a new account
 
 
 ### Features:
 
-- Selenium
+- Selenium 
 - ChromeDriver (Google Chrome browser)
 - GeckDriver (Mozilla Firefox browser)
 - TestNG
@@ -16,7 +21,13 @@ Automation project built using Page Object Model, Selenium, and TestNG.
 
 ### Requirements:
 
-- 
+- Eclipse IDE
+- Java Client JAR
+- Selenium JAR
+- Selenium Server Standalone JAR
+- TestNG JAR
+- ChromeDrvier JAR
+- GeckoDriver JAR
 
 
 ### Configuring:

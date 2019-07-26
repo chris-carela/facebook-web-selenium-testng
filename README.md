@@ -44,13 +44,18 @@ This project is a web automation framework example built using Page Object Model
 
 5) **Selenium Server JAR** - Download the Selenium Server JAR file, **please download the same version number as the Selenium Java JAR downloaded in the previous step**
 
-6) **Chrome & Firefox JARs** Download JAR files needed to launch tests in Chrome and Firefox browsers
-ChromeDriver - https://sites.google.com/a/chromium.org/chromedriver/downloads
-GeckoDriver (Firefox) - https://github.com/mozilla/geckodriver/releases
+6) **Chrome & Firefox JARs** Download JAR files for Chrome and Firefox browsers
+https://sites.google.com/a/chromium.org/chromedriver/downloads and https://github.com/mozilla/geckodriver/releases
 
 7) **Organize JARs** - Place JAR files in a dedicated folder (preferrably the same location as your workspace folder), this folder will be referenced later when we import the project
 
-8) **Eclipse TestNG Plugin** - In Eclipse, click Help -> Eclipse Marketplace -> search for TestNG -> install TestNG for Eclipse -> Confirm
+8) **Eclipse TestNG Plugin** - In Eclipse, click Help -> Eclipse Marketplace -> search for TestNG -> install "TestNG for Eclipse" -> Confirm
+
+9) **Download Project** - Download the project zip file from this repository and unzip
+
+10) **Import Project** - In Eclipse, click File -> Import -> chose "Existing Projects into Workspace" -> Next -> choose "Select Root Directory" -> Browse -> choose the unzipped project-> Finish
+
+11) **Import JAR Files** - Once the project has been imported, right click the project in the left sidebar -> Build Path -> Configure Build Path -> Add External JARs -> choose all of the JARs downloaded in the previous steps -> Open -> Apply -> OK
 
 
-
+### Running Tests:

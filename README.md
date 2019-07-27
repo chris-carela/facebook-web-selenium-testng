@@ -1,10 +1,8 @@
 ## Web Automation for Facebook Using Selenium and TestNG
 
-**_(README EDITING IN PROGRESS)_**
-
 ### Summary:
 
-This project is a web automation framework example built using Page Object Model, Selenium, and TestNG. The test cases included cover 3 different scenarios:
+This project is a web automation framework example built using Page Object Model, Selenium, and TestNG. The test cases included cover three different scenarios:
 1. Successfully logging into an existing Facebook account (correct credentials)
 2. Unsuccessfully logging into an existing Facebook account (incorrect credentials) 
 3. Creating a new account
@@ -59,3 +57,8 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads and https://githu
 
 
 ### Running Tests:
+There are two common ways to execute the test cases in this project.
+
+1) **Launching via XML** - In Eclipse, when you expand the project to see its hiearchy, a file called "testng.xml" will be visible. Right click this file  -> Run as -> TestNG Suite
+
+2) **Launching via @Test Annotation** - Open the "Test_LoginPage_Facebook" class, right click any of the three "@Test" annotations -> Run as -> TestNG Suite

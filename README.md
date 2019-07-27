@@ -1,14 +1,16 @@
 ## Web Automation for Facebook Using Selenium and TestNG
 
-### Summary:
+### Summary
 
-This project is a web automation framework example built using Page Object Model, Selenium, and TestNG. The test cases included cover three different scenarios:
+This project is a web automation framework example built using Page Object Model, Selenium, and TestNG. 
+
+The test cases included cover three different scenarios:
 1. Successfully logging into an existing Facebook account (correct credentials)
 2. Unsuccessfully logging into an existing Facebook account (incorrect credentials) 
 3. Creating a new account
 
 
-### Features:
+### Features
 
 - Selenium 
 - ChromeDriver (Google Chrome browser)
@@ -17,7 +19,7 @@ This project is a web automation framework example built using Page Object Model
 - Test Cases
 
 
-### Requirements:
+### Requirements
 
 - Eclipse IDE
 - Java Platform (JDK)
@@ -30,7 +32,7 @@ This project is a web automation framework example built using Page Object Model
 - TestNG Eclipse plugin
 
 
-### Configuring:
+### Configuring
 
 1) **Jave Platform (JDK)** - Download and install the Java Platform JDK for your respective hardware https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
@@ -56,8 +58,8 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads and https://githu
 11) **Import JAR Files** - Once the project has been imported, right click the project in the left sidebar -> Build Path -> Configure Build Path -> Add External JARs -> choose all of the JARs downloaded in the previous steps -> Open -> Apply -> OK
 
 
-### Running Tests:
-There are two common ways to execute the test cases in this project.
+### Running Tests
+There are two common ways to execute the test cases in this project:
 
 1) **Launching via XML** - In Eclipse, when you expand the project to see its hiearchy, a file called "testng.xml" will be visible. Right click this file  -> Run as -> TestNG Suite
 

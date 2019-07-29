@@ -42,12 +42,13 @@ The test cases included cover three different scenarios:
 
 4) **Selenium Java JAR** - Download the Selenium Java JAR file https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
 
-5) **Selenium Server JAR** - Download the Selenium Server JAR file, **please download the same version number as the Selenium Java JAR downloaded in the previous step**
+5) **Selenium Server JAR** - Download the Selenium Server JAR file, https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server
+**please download the same version number as the Selenium Java JAR downloaded in the previous step**
 
 6) **Chrome & Firefox JARs** Download JAR files for Chrome and Firefox browsers
 https://sites.google.com/a/chromium.org/chromedriver/downloads and https://github.com/mozilla/geckodriver/releases
 
-7) **Organize JARs** - Place JAR files in a dedicated folder (preferrably the same location as your workspace folder), this folder will be referenced later when we import the project
+7) **Organize all JARs** - Place JAR files in a dedicated folder (preferrably the same location as your workspace folder), this folder will be referenced later when we import the project
 
 8) **Eclipse TestNG Plugin** - In Eclipse, click Help -> Eclipse Marketplace -> search for TestNG -> install "TestNG for Eclipse" -> Confirm
 
